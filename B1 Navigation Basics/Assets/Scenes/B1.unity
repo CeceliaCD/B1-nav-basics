@@ -590,6 +590,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1940225650}
+  movementMultiplier: 0.25
+  lookMultiplierX: 4
+  lookMultiplierY: 4
 --- !u!1 &1074660857
 GameObject:
   m_ObjectHideFlags: 0
