@@ -16,7 +16,6 @@ public class CameraController : MonoBehaviour {
 
     void Update() {
 
-        Debug.Log(mouseLock);
         if (Input.GetKeyDown(KeyCode.Escape) || (!mouseLock && Input.GetMouseButton(0))) {
             mouseLock = !mouseLock;
             Cursor.lockState = mouseLock ? CursorLockMode.Locked : CursorLockMode.None;
