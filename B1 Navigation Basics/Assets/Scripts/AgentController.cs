@@ -18,10 +18,7 @@ public class AgentController : MonoBehaviour {
         if(selected && target.GetComponent<TargetController>().isActive) {
             agent.SetDestination(target.transform.position);
             agent.isStopped = false;  
-        } else {
-            agent.isStopped = true;
-            agent.ResetPath();
-        }
+        } 
     }
 
     public void ToggleSelected() {
