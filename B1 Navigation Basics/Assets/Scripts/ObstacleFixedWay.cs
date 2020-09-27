@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class ObstacleFixedWay : MonoBehaviour
 {
     public Transform[] follow;
+    //NavMeshObstacle cubeObstacleFixed;
     private int curr;
     public float speed= 4.0f;
 
