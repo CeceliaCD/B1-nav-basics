@@ -16,8 +16,8 @@ public class ObstacleMotion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        float moveHorizontal = Input.GetAxis("Obstacle_Horizontal");
+        float moveVertical = Input.GetAxis("Obstacle_Vertical");
         
         transform.position = transform.position + new Vector3(moveHorizontal*Time.deltaTime, 0f, moveVertical*Time.deltaTime);
     }
