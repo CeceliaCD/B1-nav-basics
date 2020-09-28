@@ -1749,7 +1749,7 @@ GameObject:
   - component: {fileID: 601934924}
   m_Layer: 0
   m_Name: Water Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 3
   m_StaticEditorFlags: 8
@@ -2999,7 +2999,7 @@ GameObject:
   - component: {fileID: 1128201830}
   m_Layer: 0
   m_Name: Grass Plane (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 3
   m_StaticEditorFlags: 8
@@ -3093,7 +3093,7 @@ GameObject:
   - component: {fileID: 1146789612}
   m_Layer: 0
   m_Name: Grass Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 3
   m_StaticEditorFlags: 8
@@ -3327,7 +3327,7 @@ GameObject:
   - component: {fileID: 1216919864}
   m_Layer: 0
   m_Name: Sand Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 3
   m_StaticEditorFlags: 8
